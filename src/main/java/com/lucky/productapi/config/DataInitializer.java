@@ -2,13 +2,11 @@ package com.lucky.productapi.config;
 
 import com.lucky.productapi.entity.User;
 import com.lucky.productapi.repository.UserRepository;
-import lombok.RequiredArgsConstructor;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Component;
 
 @Component
-@RequiredArgsConstructor
 public class DataInitializer implements CommandLineRunner {
 
 	private final UserRepository userRepository;

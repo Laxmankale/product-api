@@ -3,7 +3,6 @@ package com.lucky.productapi.controller;
 import com.lucky.productapi.entity.Product;
 import com.lucky.productapi.service.ProductService;
 import jakarta.validation.Valid;
-import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.security.access.prepost.PreAuthorize;
@@ -11,7 +10,6 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/api/v1/products")
-@RequiredArgsConstructor
 public class ProductController {
 
 	private final ProductService productService;

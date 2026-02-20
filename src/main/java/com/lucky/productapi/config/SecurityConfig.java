@@ -14,11 +14,8 @@ import org.springframework.security.web.authentication.UsernamePasswordAuthentic
 
 import com.lucky.productapi.security.JwtAuthenticationFilter;
 
-import lombok.RequiredArgsConstructor;
-
 @Configuration
 @EnableMethodSecurity
-@RequiredArgsConstructor
 public class SecurityConfig {
 
 	private final JwtAuthenticationFilter jwtAuthenticationFilter;

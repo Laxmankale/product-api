@@ -5,14 +5,12 @@ import com.lucky.productapi.entity.User;
 import com.lucky.productapi.repository.UserRepository;
 import com.lucky.productapi.security.JwtUtil;
 
-import lombok.RequiredArgsConstructor;
 import org.springframework.security.authentication.*;
 import org.springframework.security.core.Authentication;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/api/v1/auth")
-@RequiredArgsConstructor
 public class AuthController {
 	private final AuthenticationManager authenticationManager;
 	private final JwtUtil jwtUtil;

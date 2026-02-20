@@ -7,9 +7,6 @@ import lombok.*;
 @Table(name = "item")
 @Getter
 @Setter
-@NoArgsConstructor
-@AllArgsConstructor
-@Builder
 public class Item {
 
 	@Id

@@ -9,9 +9,6 @@ import java.time.LocalDateTime;
 @Table(name = "refresh_token")
 @Getter
 @Setter
-@NoArgsConstructor
-@AllArgsConstructor
-@Builder
 public class RefreshToken {
 
 	@Id

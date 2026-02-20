@@ -13,9 +13,6 @@ import com.lucky.productapi.entity.Item;
 @Table(name = "product")
 @Getter
 @Setter
-@NoArgsConstructor
-@AllArgsConstructor
-@Builder
 public class Product {
 
 	@Id
